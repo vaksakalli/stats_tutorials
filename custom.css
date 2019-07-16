@@ -1,0 +1,175 @@
+<style>
+    div.cell{
+        //width: 950px;
+        margin-left: 0% !important;
+        margin-right: auto;
+    }
+    div.text_cell_render{
+        line-height: 130%;
+        font-size: 110%;
+    }
+    div.text_cell code {
+   }    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+	}
+
+    div.input_area {
+        background: #F6F6F9;
+        border: 1px solid #586e75;
+    }
+
+    .text_cell_render h1 {
+        font-weight: bold;
+        font-size: 32pt;
+        line-height: 100%;
+        color: #357FAA;
+        margin-bottom: 0em;
+        display: block;
+        white-space: wrap;
+        text-align: left;
+    }
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
+    .text_cell_render h2 {
+        font-weight: bold;
+        font-size: 25pt;
+        line-height: 100%;
+        color: #357FAA;
+	margin-bottom: 0em;
+        margin-top: 0.3em;
+        display: block;
+        white-space: wrap;
+        text-align: left;
+    }
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .text_cell_render h3 {
+        font-size: 19pt;
+        line-height: 100%;
+        color: #357FAA;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        display: block;
+        white-space: wrap;
+        text-align: left;
+    }
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;-serif;
+    }
+    .text_cell_render h4 {
+        font-weight: 100;
+        font-size: 16pt;
+        color: #357FAA;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        display: block;
+        white-space: nowrap;
+    }
+    h5 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text_cell_render h5 {
+        font-weight: 200;
+        font-style: normal;
+        color: #357FAA;
+        font-size: 14pt;
+        margin-bottom: 0em;
+        margin-top: 0.5em;
+        display: block;
+        white-space: nowrap;
+    }
+    div.output_subarea.output_text.output_pyout {
+        overflow-x: auto;
+        overflow-y: visible;
+        max-height: 5000000px;
+    }
+    div.output_subarea.output_stream.output_stdout.output_text {
+        overflow-x: auto;
+        overflow-y: visible;
+        max-height: 5000000px;
+    }
+    div.output_wrapper{
+        margin-top:0.2em;
+        margin-bottom:0.2em;
+    }
+    a:link{
+       color:#447adb;
+    }
+    a:visited{
+       color: #1d3b84;
+    }
+    a:hover{
+       color: #1d3b84;
+    }
+    a:focus{
+       color:#447adb;
+    }
+    a:active{
+       font-weight: bold;
+       color:#447adb;
+    }
+    .rendered_html :link {
+       text-decoration: underline;
+    }
+    .rendered_html :hover {
+       text-decoration: none;
+    }
+    .rendered_html :visited {
+      text-decoration: none;
+    }
+    .rendered_html :focus {
+      text-decoration: none;
+    }
+    .rendered_html :active {
+      text-decoration: none;
+    }
+    hr {
+      color: #f3f3f3;
+      background-color: #f3f3f3;
+      height: 1px;
+    }
+    div.exercise {    
+    background-color: #eaf2f6;
+    border-color: #357FAA;
+    border-left: 5px solid #357FAA;
+    padding: 1em 1em 2em 1em;
+    }
+    div.license {    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(76, 114, 29, 0.8);
+    border:1px solid rgba(76, 114, 29, 0.2);
+    background: rgba(76, 114, 29, 0.1);
+    border-radius: 5px;
+    padding: 1.1em 1.1em 1.1em 1.1em;
+    }
+   
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"],
+                           equationNumbers: { autoNumber: "AMS", useLabelIds: true}
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    scale: 95,
+                        availableFonts: [],
+                        preferredFont:null,
+                        webFont: "TeX",
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                },
+                 "fast-preview": {
+                    "disabled": false
+                }
+        });
+</script>
